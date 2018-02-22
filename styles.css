@@ -1,0 +1,48 @@
+.root{
+    --Padd: 10px;
+}
+
+.container{
+    display: flex;
+
+    align-items: center;
+
+}
+
+.container2{
+    display: flex;
+    justify-content:space-between;
+}
+
+.genericbox{
+    align-items: center;
+    padding: var(--Pad);
+    width: 30%;
+}
+
+
+.container div{
+    padding: var(--Padd);
+    border: 1px #ccc solid;
+}
+
+.container2 div{
+    padding: var(--Padd);
+    border: 1px #ccc solid;
+}
+
+
+.box1{
+    flex: 2;
+    order: 2;
+}
+
+.box2[
+    flex:1;
+    order: 3;
+]
+
+.box3{
+    flex: 1;
+    order: 1;
+}
